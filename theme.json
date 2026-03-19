@@ -6,9 +6,14 @@
 		"color": {
 			"gradients": [
 				{
-					"slug": "whitegradient",
-					"gradient": "linear-gradient(90deg,rgba(255, 255, 255, 0) 0%, rgba(255, 0, 0, 0.37) 50%, rgba(255, 255, 255, 0) 100%)",
-					"name": "whitegradient"
+					"slug": "whitegradient1",
+					"gradient": "linear-gradient(90deg,rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.37) 50%, rgba(255, 255, 255, 0) 100%)",
+					"name": "whitegradient1"
+				},
+				{
+					"slug": "whitegradient2",
+					"gradient": "linear-gradient(90deg,rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 100%)",
+					"name": "whitegradient2"
 				}
 			],
 			"custom": false,
@@ -166,12 +171,12 @@
 			},
 			"button": {
 				"color": {
-					"background": "var(--wp--preset--gradient--whitegradient)",
+					"background": "var(--wp--preset--gradient--whitegradient1)",
 					"text": "#ffffff"
 				},
 				":hover": {
 					"color": {
-						"background": "#FF0000"
+						"background": "var(--wp--preset--gradient--whitegradient2)"
 					}
 				}
 			}

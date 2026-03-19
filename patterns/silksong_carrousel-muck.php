@@ -1,10 +1,11 @@
 <?php
 /**
- * Title: silksong_carrousel
- * Slug: sae402theme/silksong-carrousel
+ * Title: silksong_carrousel-muck
+ * Slug: sae402theme/silksong-carrousel-muck
  * Categories: featured
  * Keywords: silksong
  * Description: Default
+ * Synced : True
  */
 ?>
 <!-- wp:cover {"url":"https://mmi.unilim.fr/~villoutreix8/wordpress/wp-content/uploads/2026/03/Silksong-Bilewater-Header-1024x576.webp","id":86,"dimRatio":50,"overlayColor":"black","isUserOverlayColor":true,"minHeight":777,"minHeightUnit":"px","sizeSlug":"large","metadata":{"categories":["banner","call-to-action"],"patternName":"core/bold-sale-banner-with-geometric-background","name":"Bold sale banner with geometric background"},"align":"full","style":{"spacing":{"padding":{"top":"4vw","right":"4vw","bottom":"4vw","left":"4vw"},"margin":{"top":"0"}},"color":{"duotone":"unset"},"border":{"width":"2px"}},"layout":{"type":"default"}} -->
@@ -29,14 +30,14 @@
 <div class="wp-block-woocommerce-single-product woocommerce"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"0","right":"0"},"blockGap":"0"},"border":{"radius":{"topLeft":"0px","topRight":"0px","bottomLeft":"0px","bottomRight":"0px"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"left","orientation":"horizontal"}} -->
-<div class="wp-block-group" style="border-top-left-radius:0px;border-top-right-radius:0px;border-bottom-left-radius:0px;border-bottom-right-radius:0px;padding-top:var(--wp--preset--spacing--40);padding-right:0;padding-bottom:var(--wp--preset--spacing--40);padding-left:0"><!-- wp:group {"fontSize":"medium","layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
+<div class="wp-block-group" style="border-top-left-radius:0px;border-top-right-radius:0px;border-bottom-left-radius:0px;border-bottom-right-radius:0px;padding-top:var(--wp--preset--spacing--40);padding-right:0;padding-bottom:var(--wp--preset--spacing--40);padding-left:0"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|80"}},"fontSize":"medium","layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 <div class="wp-block-group has-medium-font-size"><!-- wp:paragraph {"style":{"layout":{"selfStretch":"fit","flexSize":null}},"fontSize":"medium"} -->
 <p class="has-medium-font-size">Fragile charm woven of reed and leafs.<br>Said to repels the Muckmaggots of Sinner’s road, Bilewater, and Putrified Ducks. Repairs when settling at benches</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"width":100,"className":"is-style-fill","style":{"color":{"gradient":"linear-gradient(135deg,rgba(7,146,227,0) 0%,rgba(255,255,255,0.49) 52%,rgba(155,81,224,0) 100%)"},"border":{"width":"0px","style":"none","radius":{"topLeft":"0px","topRight":"0px","bottomLeft":"0px","bottomRight":"0px"}},"spacing":{"padding":{"left":"0","right":"0","top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"fontSize":"medium"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill"><a class="wp-block-button__link has-background has-medium-font-size has-custom-font-size wp-element-button" href="https://mmi.unilim.fr/~villoutreix8/wordpress/product/wreath-of-purity/" style="border-style:none;border-width:0px;border-top-left-radius:0px;border-top-right-radius:0px;border-bottom-left-radius:0px;border-bottom-right-radius:0px;background:linear-gradient(135deg,rgba(7,146,227,0) 0%,rgba(255,255,255,0.49) 52%,rgba(155,81,224,0) 100%);padding-top:var(--wp--preset--spacing--30);padding-right:0;padding-bottom:var(--wp--preset--spacing--30);padding-left:0">BUY - 2500GEos</a></div>
+<div class="wp-block-buttons"><!-- wp:button {"width":100,"className":"is-style-button-grad","style":{"color":{"gradient":"linear-gradient(135deg,rgba(7,146,227,0) 0%,rgba(255,255,255,0.49) 52%,rgba(155,81,224,0) 100%)"},"border":{"width":"0px","style":"none","radius":{"topLeft":"0px","topRight":"0px","bottomLeft":"0px","bottomRight":"0px"}},"spacing":{"padding":{"left":"0","right":"0","top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"fontSize":"medium"} -->
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-button-grad"><a class="wp-block-button__link has-background has-medium-font-size has-custom-font-size wp-element-button" href="https://mmi.unilim.fr/~villoutreix8/wordpress/product/wreath-of-purity/" style="border-style:none;border-width:0px;border-top-left-radius:0px;border-top-right-radius:0px;border-bottom-left-radius:0px;border-bottom-right-radius:0px;background:linear-gradient(135deg,rgba(7,146,227,0) 0%,rgba(255,255,255,0.49) 52%,rgba(155,81,224,0) 100%);padding-top:var(--wp--preset--spacing--30);padding-right:0;padding-bottom:var(--wp--preset--spacing--30);padding-left:0">BUY - 2500GEos</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
