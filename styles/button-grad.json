@@ -1,0 +1,11 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.9/theme.json",
+  "version": 3,
+  "title": "Bouton grad",
+  "slug": "button-grad",
+  "blockTypes": ["core/button"],
+  "styles": {
+"css": "& {background-image: var(--wp--preset--gradient--whitegradient}"
+
+  }
+}

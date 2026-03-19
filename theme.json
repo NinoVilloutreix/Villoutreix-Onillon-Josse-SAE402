@@ -1,0 +1,183 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.9/theme.json",
+	"version": 3,
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"gradients": [
+				{
+					"slug": "whitegradient",
+					"gradient": "linear-gradient(90deg,rgba(255, 255, 255, 0) 0%, rgba(255, 0, 0, 0.37) 50%, rgba(255, 255, 255, 0) 100%)",
+					"name": "whitegradient"
+				}
+			],
+			"custom": false,
+			"defaultPalette": false,
+			"palette": [
+				{
+					"color": "#FFFFFF",
+					"name": "White",
+					"slug": "white"
+				},
+				{
+					"color": "#000000",
+					"name": "Black",
+					"slug": "black"
+				},
+				{
+					"color": "#D10F1A",
+					"name": "Red1",
+					"slug": "red1"
+				},
+				{
+					"color": "#9A000F",
+					"name": "Red2",
+					"slug": "red2"
+				},
+				{
+					"color": "#EE6B34",
+					"name": "Orange1",
+					"slug": "orange1"
+				},
+				{
+					"color": "#D10F1A",
+					"name": "Orange2",
+					"slug": "orange2"
+				},
+				{
+					"color": "#A63B1F",
+					"name": "Orange3",
+					"slug": "orange3"
+				},
+				{
+					"color": "#781F19",
+					"name": "Orange4",
+					"slug": "orange4"
+				},
+				{
+					"color": "#4D181C",
+					"name": "Orange5",
+					"slug": "orange5"
+				},
+				{
+					"color": "#E2E2E2",
+					"name": "Grey1",
+					"slug": "grey1"
+				},
+				{
+					"color": "#5D5D5D",
+					"name": "Grey2",
+					"slug": "grey2"
+				},
+				{
+					"color": "#C97A45",
+					"name": "Gold1",
+					"slug": "gold1"
+				},
+				{
+					"color": "#734C2D",
+					"name": "Gold2",
+					"slug": "gold2"
+				},
+				{
+					"color": "#5D291C",
+					"name": "Gold3",
+					"slug": "gold3"
+				},
+				{
+					"color": "#38ebff",
+					"name": "Blue1",
+					"slug": "blue1"
+				}
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Cinzel",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/Cinzel-VariableFont_wght.ttf"
+							]
+						}
+					],
+					"fontFamily": "Cinzel, serif",
+					"name": "Cinzel",
+					"slug": "cinzel"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Baskerville",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/Baskervville-VariableFont_wght.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"Baskerville\", serif",
+					"name": "Baskerville",
+					"slug": "baskerville"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Poppins",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/Poppins-Regular.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"Poppins\", sans-serif",
+					"name": "Poppins",
+					"slug": "poppins"
+				}
+			]
+		}
+	},
+	"styles": {
+		"blocks": [],
+		"color": {
+			"background": "var(--wp--preset--color--black)",
+			"text": "var(--wp--preset--color--white)"
+		},
+		"elements": {
+			"h1": {
+				"color": {
+					"text": "var(--wp--preset--color--red1)"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--cinzel)"
+				}
+			},
+			"h2": {
+				"color": {
+					"text": "var(--wp--preset--color--gold1)"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--baskerville)"
+				}
+			},
+			"button": {
+				"color": {
+					"background": "var(--wp--preset--gradient--whitegradient)",
+					"text": "#ffffff"
+				},
+				":hover": {
+					"color": {
+						"background": "#FF0000"
+					}
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--poppins)"
+		}
+	}
+}
