@@ -6,4 +6,33 @@ Version: 1.0
 
 /* CET ENDROIT EXISTE POUR DU CSS ADDITIONNEL */
 
+/* IMAGES */
+.wp-block-woocommerce-product-gallery{
+    width: 300px !important;
+    height: 300px !important;
+    object-fit: cover !important;
+    object-position: center !important;
+    
+}
 
+.wp-block-column.is-vertically-aligned-stretch.is-layout-flow.wp-block-column-is-layout-flow{
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    /* border: solid red 10px; */
+}
+
+.wc-block-components-product-price.wc-block-grid__product-price{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+/* Wordpress button */ probleme : ça met le gradient par dessus l'autre.
+
+/* .wp-element-button{
+
+    background-color: transparent !important;
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 100%) !important;
+	color : #ffffff !important;
+} */
