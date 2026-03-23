@@ -80,7 +80,10 @@ function sae402theme_scripts() {
 add_action( 'wp_enqueue_scripts', 'sae402theme_scripts' );
 
 
+
 add_filter( 'block_editor_settings_all', function( $settings ) {
     $settings['__experimentalFeatures']['useRootPaddingAwareAlignments'] = true;
     return $settings;
 });
+
+
