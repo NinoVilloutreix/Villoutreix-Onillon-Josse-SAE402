@@ -28,7 +28,7 @@ Version: 1.0
     gap: 2rem;
 }
 
-/* Wordpress button */ probleme : ça met le gradient par dessus l'autre.
+/* Wordpress button probleme : ça met le gradient par dessus l'autre. */
 
 /* .wp-element-button{
 
@@ -36,3 +36,36 @@ Version: 1.0
     background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 100%) !important;
 	color : #ffffff !important;
 } */
+
+
+
+
+/* Disable hover zoom effect */
+.wc-block-woocommerce-product-gallery-large-image__image--hoverZoom {
+    cursor: pointer !important;
+    pointer-events: none !important;
+}
+
+/* Remove zoom transform */
+.wc-block-woocommerce-product-gallery-large-image__image {
+    transform: none !important;
+}
+
+/* Allow clicking again */
+.wc-block-components-product-image a {
+    pointer-events: auto !important;
+    cursor: pointer !important;
+}
+
+
+/* Remove zoom interaction completely */
+.wc-block-product-gallery-large-image__image {
+    pointer-events: none !important;
+}
+
+/* Hide dialog just in case */
+.wc-block-product-gallery-dialog {
+    display: none !important;
+}
+
+

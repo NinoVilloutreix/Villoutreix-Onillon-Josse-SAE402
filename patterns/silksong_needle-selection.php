@@ -5,6 +5,7 @@
  * Categories: featured
  * Keywords: silksong
  * Description: Default
+ * SyncStatus: synced
  */
 ?>
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->

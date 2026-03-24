@@ -5,6 +5,8 @@
  * Categories: featured
  * Keywords: silksong
  * Description: Default
+ * SyncStatus: synced
+
  */
 ?>
 <!-- wp:woocommerce/single-product {"productId":44} -->

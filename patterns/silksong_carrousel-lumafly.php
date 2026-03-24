@@ -5,6 +5,8 @@
  * Categories: featured
  * Keywords: silksong
  * Description: Default
+ * SyncStatus: synced
+
  */
 ?>
 <!-- wp:cover {"url":"https://mmi.unilim.fr/~villoutreix8/wordpress/wp-content/uploads/2026/03/hq720.jpg","id":226,"dimRatio":50,"overlayColor":"black","isUserOverlayColor":true,"focalPoint":{"x":0.5,"y":0.74},"minHeight":777,"minHeightUnit":"px","sizeSlug":"full","metadata":{"categories":["banner","call-to-action"],"patternName":"core/bold-sale-banner-with-geometric-background","name":"Bold sale banner with geometric background"},"align":"full","style":{"spacing":{"padding":{"top":"4vw","right":"4vw","bottom":"4vw","left":"4vw"},"margin":{"top":"0"}},"color":{"duotone":"unset"},"border":{"width":"2px"}},"layout":{"type":"default"}} -->

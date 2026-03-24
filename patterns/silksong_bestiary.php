@@ -5,6 +5,8 @@
  * Categories: featured
  * Keywords: silksong
  * Description: Default
+ * SyncStatus: synced
+
  */
 ?>
 <!-- wp:group {"className":"no-repeat","style":{"background":{"backgroundImage":{"url":"https://mmi.unilim.fr/~villoutreix8/wordpress/wp-content/uploads/2026/03/bestiary.png","id":238,"source":"file","title":"bestiary"},"backgroundSize":"cover"}},"backgroundColor":"black","layout":{"type":"constrained"}} -->

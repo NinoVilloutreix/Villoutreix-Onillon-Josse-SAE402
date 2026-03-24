@@ -77,6 +77,11 @@ function sae402theme_scripts() {
         true                                                // Charger dans le footer
     );
 }
+
+
+
+
+
 add_action( 'wp_enqueue_scripts', 'sae402theme_scripts' );
 
 
@@ -87,3 +92,33 @@ add_filter( 'block_editor_settings_all', function( $settings ) {
 });
 
 
+
+function custom_disable_wc_zoom_click_script() {
+?>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+
+    const products = document.querySelectorAll('.wp-block-woocommerce-single-product');
+
+    products.forEach(function(product) {
+
+        const productLink = product.querySelector('.wp-block-post-title a')?.href;
+        const imageLinks = product.querySelectorAll('.wc-block-components-product-image a');
+
+        imageLinks.forEach(function(link) {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                if (productLink) {
+                    window.location.href = productLink;
+                }
+            });
+        });
+
+    });
+
+});
+</script>
+<?php
+}
+add_action('wp_footer', 'custom_disable_wc_zoom_click_script');
