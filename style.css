@@ -43,7 +43,6 @@ Version: 1.0
 /* Disable hover zoom effect */
 .wc-block-woocommerce-product-gallery-large-image__image--hoverZoom {
     cursor: pointer !important;
-    pointer-events: none !important;
 }
 
 /* Remove zoom transform */
@@ -68,4 +67,8 @@ Version: 1.0
     display: none !important;
 }
 
-
+.is-style-grad a{
+background: none !important;
+background-image: linear-gradient(90deg,rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.37) 50%, rgba(255, 255, 255, 0) 100%) !important;
+color: white !important;
+}
