@@ -37,7 +37,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"width":100,"className":"is-style-button-grad"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-button-grad"><a class="wp-block-button__link wp-element-button" href="https://mmi.unilim.fr/~villoutreix8/wordpress/product/lumafly-lantern/">BUY - 1800 Geos</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-button-grad"><a class="wp-block-button__link wp-element-button" href="https://mmi.unilim.fr/~villoutreix8/wordpress/product/lumafly-lantern/">Get it now !</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

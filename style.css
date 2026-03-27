@@ -6,7 +6,7 @@ Version: 1.0
 
 /* CET ENDROIT EXISTE POUR DU CSS ADDITIONNEL */
 
-/* IMAGES */
+/* ########################################### IMAGES ########################################### */
 
 
 .wp-block-column.is-vertically-aligned-stretch.is-layout-flow.wp-block-column-is-layout-flow{
@@ -21,18 +21,6 @@ Version: 1.0
     flex-direction: row;
     gap: 2rem;
 }
-
-/* Wordpress button probleme : ça met le gradient par dessus l'autre. */
-
-/* .wp-element-button{
-
-    background-color: transparent !important;
-    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 100%) !important;
-	color : #ffffff !important;
-} */
-
-
-
 
 /* Disable hover zoom effect */
 .wc-block-woocommerce-product-gallery-large-image__image--hoverZoom {
@@ -61,12 +49,43 @@ Version: 1.0
     display: none !important;
 }
 
+
+/* ########################################### BUTTONS ########################################### */
+
 .is-style-grad a{
 background: none !important;
 background-image: linear-gradient(90deg,rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.37) 50%, rgba(255, 255, 255, 0) 100%) !important;
 color: white !important;
 }
 
+.wp-block-button__link {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0px;
+  background-color: none !important;
+}
+
+.wp-block-button__link::before {
+  content: "";
+  position: absolute;
+  border-radius: 0px;
+  inset: 0;
+  background-image: linear-gradient(
+    90deg,
+    rgba(255,255,255,0) 0%,
+    rgba(255,255,255,1) 50%,
+    rgba(255,255,255,0) 100%
+  ) !important;
+  opacity: 0.350;
+  transition: opacity 0.5s;
+  pointer-events: none; /* important pour ne pas bloquer le clic */
+}
+
+.wp-block-button__link:hover::before {
+  opacity: 0.5;
+}
+
+/* ########################################### SALE BADGE ########################################### */
 
 .wc-block-components-product-sale-badge{
     background: none !important;
@@ -88,31 +107,22 @@ color: white !important;
 }
 
 
+/* ########################################### PRODUCT PAGE ########################################### */
 
-
-
-
-
-.wp-block-button__link {
-  position: relative;
-  overflow: hidden;
+.woocommerce-tabs{
+    font-size: 20px;
 }
 
-.wp-block-button__link::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image: linear-gradient(
-    90deg,
-    rgba(255,255,255,0) 0%,
-    rgba(255,255,255,1) 50%,
-    rgba(255,255,255,0) 100%
-  );
-  opacity: 0.350;
-  transition: opacity 0.5s;
-  pointer-events: none; /* important pour ne pas bloquer le clic */
+textarea{
+    border: white solid 2px;
+    color: white;
+    background-color: black !important;
 }
 
-.wp-block-button__link:hover::before {
-  opacity: 0.5;
+.stock.in-stock{
+    font-size: 25px !important;
+}
+
+.wc-block-components-product-price.wc-block-grid__product-price{
+    justify-content: center !important;
 }
