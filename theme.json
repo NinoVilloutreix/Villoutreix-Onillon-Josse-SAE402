@@ -175,6 +175,22 @@
 			},
 			"h2": {
 				"color": {
+					"text": "var(--wp--preset--color--red1)"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--cinzel)"
+				}
+			},
+			"h3": {
+				"color": {
+					"text": "var(--wp--preset--color--gold1)"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--baskerville)"
+				}
+			},
+			"h4": {
+				"color": {
 					"text": "var(--wp--preset--color--gold1)"
 				},
 				"typography": {

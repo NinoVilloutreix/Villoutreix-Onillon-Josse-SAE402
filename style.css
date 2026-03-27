@@ -97,3 +97,10 @@ color: white !important;
     height: 100% !important;
     object-fit: contain !important;
 }
+
+.sticky-header {
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 9999 !important;
+    background: inherit !important;
+}
