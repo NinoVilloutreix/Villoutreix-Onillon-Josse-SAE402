@@ -36,8 +36,8 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"width":100,"className":"is-style-button-grad","style":{"color":{"gradient":"linear-gradient(135deg,rgba(7,146,227,0) 0%,rgba(255,255,255,0.49) 52%,rgba(155,81,224,0) 100%)"},"border":{"width":"0px","style":"none","radius":{"topLeft":"0px","topRight":"0px","bottomLeft":"0px","bottomRight":"0px"}},"spacing":{"padding":{"left":"0","right":"0","top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"fontSize":"medium"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-button-grad"><a class="wp-block-button__link has-background has-medium-font-size has-custom-font-size wp-element-button" href="https://mmi.unilim.fr/~villoutreix8/wordpress/product/lumafly-lantern" style="border-style:none;border-width:0px;border-top-left-radius:0px;border-top-right-radius:0px;border-bottom-left-radius:0px;border-bottom-right-radius:0px;background:linear-gradient(135deg,rgba(7,146,227,0) 0%,rgba(255,255,255,0.49) 52%,rgba(155,81,224,0) 100%);padding-top:var(--wp--preset--spacing--30);padding-right:0;padding-bottom:var(--wp--preset--spacing--30);padding-left:0">BUY - 1800 Geos</a></div>
+<div class="wp-block-buttons"><!-- wp:button {"width":100,"className":"is-style-button-grad"} -->
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-button-grad"><a class="wp-block-button__link wp-element-button" href="https://mmi.unilim.fr/~villoutreix8/wordpress/product/lumafly-lantern/">BUY - 1800 Geos</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

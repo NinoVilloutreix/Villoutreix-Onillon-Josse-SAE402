@@ -19,12 +19,12 @@
 			"gradients": [
 				{
 					"slug": "whitegradient1",
-					"gradient": "linear-gradient(90deg,rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.37) 50%, rgba(255, 255, 255, 0) 100%)",
+					"gradient": "linear-gradient(90deg,rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 100%)",
 					"name": "whitegradient1"
 				},
 				{
 					"slug": "whitegradient2",
-					"gradient": "linear-gradient(90deg,rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 100%)",
+					"gradient": "linear-gradient(90deg,rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%)",
 					"name": "whitegradient2"
 				}
 			],
@@ -167,7 +167,7 @@
 		"elements": {
 			"h1": {
 				"color": {
-					"text": "var(--wp--preset--color--red1)"
+					"text": "var(--wp--preset--color--white)"
 				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--cinzel)"
@@ -175,7 +175,7 @@
 			},
 			"h2": {
 				"color": {
-					"text": "var(--wp--preset--color--red1)"
+					"text": "var(--wp--preset--color--white)"
 				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--cinzel)"
@@ -183,7 +183,7 @@
 			},
 			"h3": {
 				"color": {
-					"text": "var(--wp--preset--color--gold1)"
+					"text": "var(--wp--preset--color--white)"
 				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--baskerville)"
@@ -191,7 +191,7 @@
 			},
 			"h4": {
 				"color": {
-					"text": "var(--wp--preset--color--gold1)"
+					"text": "var(--wp--preset--color--white)"
 				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--baskerville)"
@@ -200,7 +200,7 @@
 			"button": {
 				"color": {
 					"background": "var(--wp--preset--gradient--whitegradient1)",
-					"text": "#ffffff"
+					"text": "var(--wp--preset--color--white)"
 				},
 				":hover": {
 					"color": {
