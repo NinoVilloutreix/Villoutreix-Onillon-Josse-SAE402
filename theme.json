@@ -52,12 +52,12 @@
 					"slug": "red2"
 				},
 				{
-					"color": "#EE6B34",
+					"color": "#FEB974",
 					"name": "Orange1",
 					"slug": "orange1"
 				},
 				{
-					"color": "#D10F1A",
+					"color": "#EE6B34",
 					"name": "Orange2",
 					"slug": "orange2"
 				},
@@ -201,6 +201,9 @@
 				"color": {
 					"background": "var(--wp--preset--gradient--whitegradient1)",
 					"text": "var(--wp--preset--color--white)"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--baskerville)"
 				},
 				":hover": {
 					"color": {

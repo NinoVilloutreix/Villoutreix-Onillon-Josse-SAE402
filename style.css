@@ -6,17 +6,42 @@ Version: 1.0
 
 /* CET ENDROIT EXISTE POUR DU CSS ADDITIONNEL */
 
+
+:root {
+    --wc-font-cinzel: "Cinzel", serif;
+    --wc-font-baskerville: "Baskerville";
+    --wc-font-poppins: "Poppins", sans-serif;
+
+
+    --wc-white: #FFFFFF;
+    --wc-black: #000000;
+    --wc-red1: #D10F1A;
+    --wc-red2: #9A000F;
+    --wc-orange1: #FEB974;
+    --wc-orange2: #EE6B34;
+    --wc-orange3: #A63B1F;
+    --wc-orange4: #781F19;
+    --wc-orange5: #4D181C;
+    --wc-grey1: #E2E2E2;
+    --wc-grey2: #5D5D5D;
+    --wc-gold1: #C97A45;
+    --wc-gold2: #734C2D;
+    --wc-gold3: #5D291C;
+    --wc-blue1: #38ebff;
+}
+
+
 /* ########################################### IMAGES ########################################### */
 
 
-.wp-block-column.is-vertically-aligned-stretch.is-layout-flow.wp-block-column-is-layout-flow{
+.wp-block-column.is-vertically-aligned-stretch.is-layout-flow.wp-block-column-is-layout-flow {
     align-items: center;
     justify-content: center;
     width: 300px;
     /* border: solid red 10px; */
 }
 
-.wc-block-components-product-price.wc-block-grid__product-price{
+.wc-block-components-product-price.wc-block-grid__product-price {
     display: flex;
     flex-direction: row;
     gap: 2rem;
@@ -49,52 +74,56 @@ Version: 1.0
     display: none !important;
 }
 
+.wc-block-components-product-image{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
 
 /* ########################################### BUTTONS ########################################### */
 
-.is-style-grad a{
-background: none !important;
-background-image: linear-gradient(90deg,rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.37) 50%, rgba(255, 255, 255, 0) 100%) !important;
-color: white !important;
+.is-style-grad a {
+    background: none !important;
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.37) 50%, rgba(255, 255, 255, 0) 100%) !important;
+    color: var(--wc-white) !important;
 }
 
 .wp-block-button__link {
-  position: relative;
-  overflow: hidden;
-  border-radius: 0px;
-  background-color: none !important;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0px;
+    background-color: none !important;
 }
 
 .wp-block-button__link::before {
-  content: "";
-  position: absolute;
-  border-radius: 0px;
-  inset: 0;
-  background-image: linear-gradient(
-    90deg,
-    rgba(255,255,255,0) 0%,
-    rgba(255,255,255,1) 50%,
-    rgba(255,255,255,0) 100%
-  ) !important;
-  opacity: 0.350;
-  transition: opacity 0.5s;
-  pointer-events: none; /* important pour ne pas bloquer le clic */
+    content: "";
+    position: absolute;
+    border-radius: 0px;
+    inset: 0;
+    background-image: linear-gradient(90deg,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(255, 255, 255, 1) 50%,
+            rgba(255, 255, 255, 0) 100%) !important;
+    opacity: 0.350;
+    transition: opacity 0.5s;
+    pointer-events: none;
+    /* important pour ne pas bloquer le clic */
 }
 
 .wp-block-button__link:hover::before {
-  opacity: 0.5;
+    opacity: 0.5;
 }
 
 /* ########################################### SALE BADGE ########################################### */
 
-.wc-block-components-product-sale-badge{
+.wc-block-components-product-sale-badge {
     background: none !important;
-    border: 1px white solid;
+    border: 1px var(--wc-white) solid;
 }
 
-.wc-block-components-product-sale-badge span{
+.wc-block-components-product-sale-badge span {
     font-size: 12px;
-    color: white;
+    color: var(--wc-white);
 }
 
 
@@ -109,20 +138,115 @@ color: white !important;
 
 /* ########################################### PRODUCT PAGE ########################################### */
 
-.woocommerce-tabs{
+.woocommerce-tabs {
     font-size: 20px;
 }
 
-textarea{
-    border: white solid 2px;
-    color: white;
+textarea,
+input {
+    border: var(--wc-white) solid 2px !important;
+    color: var(--wc-white) !important;
     background-color: black !important;
+    font-size: 1.5rem !important;
 }
 
-.stock.in-stock{
+.stock.in-stock {
     font-size: 25px !important;
 }
 
-.wc-block-components-product-price.wc-block-grid__product-price{
+.wc-block-components-product-price.wc-block-grid__product-price {
     justify-content: center !important;
+}
+
+/* ########################################### NAVBAR ########################################### */
+
+.wp-block-navigation__container {
+    gap: 2vw;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ########################################### ACCOUNT ########################################### */
+
+.woocommerce-MyAccount-content {
+    font-size: 20px;
+}
+
+.woocommerce-MyAccount-navigation ul {
+    font-size: 25px;
+    margin-bottom: 5rem;
+    gap: 5rem !important;
+
+}
+
+.woocommerce-MyAccount-navigation a {
+    text-decoration: none !important;
+}
+
+.woocommerce-MyAccount-navigation a :hover {
+    text-decoration: none !important;
+}
+
+.woocommerce-MyAccount-navigation li {
+    padding: 0rem !important;
+}
+
+.woocommerce-MyAccount-navigation-link--customer-logout a {
+    color: var(--wc-red1) !important;
+}
+
+.woocommerce-Address {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start;
+}
+
+
+
+.woocommerce-Address-title p{
+    display: flex !important;
+    justify-content: flex-start !important;
+    text-align: start !important;
+}
+
+.woocommerce-Address-title h2{
+    font-family: var(--wc-font-baskerville) !important;
+    color: var(--wc-orange2);
+}
+
+button[name="save_account_details"] {
+    color: var(--wc-red1) !important;
+}
+
+
+.button[name="save_account_details"] {
+    background: none !important;
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.37) 50%, rgba(255, 255, 255, 0) 100%) !important;
+    color: var(--wc-white) !important;
+}
+
+.button[name="save_account_details"] {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0px;
+    background-color: none !important;
+}
+
+.button[name="save_account_details"]::before {
+    content: "";
+    position: absolute;
+    border-radius: 0px;
+    inset: 0;
+    background-image: linear-gradient(90deg,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(255, 255, 255, 1) 50%,
+            rgba(255, 255, 255, 0) 100%) !important;
+    opacity: 0.350;
+    transition: opacity 0.5s;
+    pointer-events: none;
+    /* important pour ne pas bloquer le clic */
+}
+
+.button[name="save_account_details"]:hover::before {
+    opacity: 0.5;
 }

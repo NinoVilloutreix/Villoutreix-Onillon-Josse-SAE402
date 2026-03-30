@@ -36,8 +36,8 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"style":{"spacing":{"blockGap":{"top":"0","left":"0"}},"layout":{"selfStretch":"fit","flexSize":null},"border":{"width":"0px","style":"none","radius":{"topLeft":"0px","topRight":"0px","bottomLeft":"0px","bottomRight":"0px"}}}} -->
-<div class="wp-block-buttons" style="border-style:none;border-width:0px;border-top-left-radius:0px;border-top-right-radius:0px;border-bottom-left-radius:0px;border-bottom-right-radius:0px"><!-- wp:button {"width":100,"className":"is-style-button-grad"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-button-grad"><a class="wp-block-button__link wp-element-button" href="https://mmi.unilim.fr/~villoutreix8/wordpress/product/wreath-of-purity/">Get it now !</a></div>
+<div class="wp-block-buttons" style="border-style:none;border-width:0px;border-top-left-radius:0px;border-top-right-radius:0px;border-bottom-left-radius:0px;border-bottom-right-radius:0px"><!-- wp:button {"width":100,"className":"is-style-button-grad","fontSize":"large"} -->
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-button-grad"><a class="wp-block-button__link has-large-font-size has-custom-font-size wp-element-button" href="https://mmi.unilim.fr/~villoutreix8/wordpress/product/wreath-of-purity/">Get it now !</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
