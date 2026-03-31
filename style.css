@@ -401,7 +401,7 @@ button[name="save_account_details"] {
 /* ########################################### CHECKOUT ########################################### */
 
 [data-block-name="woocommerce/page-content-wrapper"]{
-    border: solid 5px red !important;
+    /* border: solid 5px red !important; */
     padding-inline: clamp(2rem, 2vw, 10rem);
 }
 
