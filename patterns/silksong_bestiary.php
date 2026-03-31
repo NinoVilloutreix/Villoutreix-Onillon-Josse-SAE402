@@ -10,12 +10,12 @@
  */
 ?>
 <!-- wp:group {"className":"no-repeat","style":{"background":{"backgroundImage":{"url":"https://mmi.unilim.fr/~villoutreix8/wordpress/wp-content/uploads/2026/03/bestiary.png","id":238,"source":"file","title":"bestiary"},"backgroundSize":"cover"}},"backgroundColor":"black","layout":{"type":"constrained"}} -->
-<div class="wp-block-group no-repeat has-black-background-color has-background"><!-- wp:heading {"textAlign":"center","level":1,"style":{"typography":{"fontSize":"60px"},"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|80"}}}} -->
-<h1 class="wp-block-heading has-text-align-center" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);font-size:60px">Bestiary</h1>
+<div class="wp-block-group no-repeat has-black-background-color has-background"><!-- wp:heading {"textAlign":"center","level":1,"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|80"}}},"fontSize":"silksong_big-title"} -->
+<h1 class="wp-block-heading has-text-align-center has-silksong-big-title-font-size" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80)">Bestiary</h1>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|80"}}},"fontSize":"large"} -->
-<p class="has-text-align-center has-large-font-size" style="margin-bottom:var(--wp--preset--spacing--80)">A dangerous insight of two kingdom’s infections.</p>
+<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|80"}}},"fontSize":"silksong_title"} -->
+<p class="has-text-align-center has-silksong-title-font-size" style="margin-bottom:var(--wp--preset--spacing--80)">A dangerous insight of two kingdom’s infections.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
@@ -34,8 +34,8 @@
 <!-- /wp:image -->
 
 <!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"width":100,"className":"is-style-button-grad","style":{"spacing":{"padding":{"left":"8rem","right":"8rem","top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"fontSize":"large"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-button-grad"><a class="wp-block-button__link has-large-font-size has-custom-font-size wp-element-button" href="https://mmi.unilim.fr/~villoutreix8/wordpress/shop/" style="padding-top:var(--wp--preset--spacing--30);padding-right:8rem;padding-bottom:var(--wp--preset--spacing--30);padding-left:8rem"><strong>Go to the Shop</strong></a></div>
+<div class="wp-block-buttons"><!-- wp:button {"width":100,"className":"is-style-button-grad","style":{"spacing":{"padding":{"left":"8rem","right":"8rem","top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"fontSize":"silksong_small-title"} -->
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-button-grad"><a class="wp-block-button__link has-silksong-small-title-font-size has-custom-font-size wp-element-button" href="https://mmi.unilim.fr/~villoutreix8/wordpress/shop/" style="padding-top:var(--wp--preset--spacing--30);padding-right:8rem;padding-bottom:var(--wp--preset--spacing--30);padding-left:8rem"><strong>Go to the Shop</strong></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 

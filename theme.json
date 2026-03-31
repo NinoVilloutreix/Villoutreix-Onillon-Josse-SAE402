@@ -14,40 +14,6 @@
 				"area": "footer"
 			}
 		],
-		"typography": {
-			"fluid": true,
-			"fontSizes": [
-				{
-					"size": ".9rem",
-					"fluid": {
-						"min": "0.9rem",
-						"max": "1.2rem"
-					},
-					"slug": "piccolino",
-					"name": "Piccolino"
-				},
-				{
-					"size": "2rem",
-					"fluid": {
-						"min": "1.8rem",
-						"max": "3.3rem"
-					},
-					"slug": "in-mezzo",
-					"name": "In Mezzo"
-				},
-				{
-					"size": "2.8rem",
-					"fluid": false,
-					"slug": "neutrale",
-					"name": "Neutrale"
-				},
-				{
-					"size": "4.75rem",
-					"slug": "grandone",
-					"name": "Grandone"
-				}
-			]
-		},
 		"appearanceTools": true,
 		"color": {
 			"gradients": [
@@ -142,7 +108,65 @@
 				}
 			]
 		},
-		"typography": {
+		"typography":{
+			"fluid": true,
+			"fontFamily": "var(--wp--preset--font-family--poppins)",
+			"fontSizes": [
+				{
+					"size": "0.9rem",
+					"fluid": {
+						"min": "0.8rem",
+						"max": "0.9rem"
+					},
+					"slug": "silksong_small",
+					"name": "Silksong_Small"
+				},
+				{
+					"size": "0.9rem",
+					"fluid": {
+						"min": "0.9rem",
+						"max": "1.25rem"
+					},
+					"slug": "silksong_medium",
+					"name": "Silksong_Medium"
+				},
+				{
+					"size": "2.0rem",
+					"fluid": {
+						"min": "2.0rem",
+						"max": "2.25rem"
+					},
+					"slug": "silksong_small-title",
+					"name": "Silksong_Small Title"
+				},
+				{
+					"size": "2.65rem",
+					"fluid": {
+						"min": "2.65rem",
+						"max": "2.85rem"
+					},
+					"slug": "silksong_title",
+					"name": "Silksong_Title"
+				},
+				{
+					"size": "4.0rem",
+					"fluid": {
+						"min": "4.0rem",
+						"max": "4.2rem"
+					},
+					"slug": "silksong_big-title",
+					"name": "Silksong_Big Title"
+				},
+				{
+					"size": "5.25rem",
+					"fluid": {
+						"min": "2.65rem",
+						"max": "5.25rem"
+					},
+					"slug": "silksong_giant-title",
+					"name": "Silksong_Giant Title"
+				}
+			],
 			"fontFamilies": [
 				{
 					"fontFace": [
@@ -245,9 +269,6 @@
 					}
 				}
 			}
-		},
-		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--poppins)"
 		}
 	}
 }

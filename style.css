@@ -93,6 +93,7 @@ Version: 1.0
     overflow: hidden;
     border-radius: 0px;
     background-color: none !important;
+    font-size: var(--wp--preset--font-size--silksong_big-title) !important;
 }
 
 .wp-block-button__link::before, .single_add_to_cart_button::before, button[name="save_account_details"]::before, .wc-block-components-button::before {
@@ -122,7 +123,7 @@ Version: 1.0
 }
 
 .wc-block-components-product-sale-badge span {
-    font-size: 12px;
+    font-size: var(--wp--preset--font-size--silksong_small) !important;
     color: var(--wc-white);
 }
 
