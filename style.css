@@ -186,10 +186,28 @@ select {
     /* border: solid red 1px !important; */
 }
 
+.wp-post-image{
+    object-fit: contain !important;
+    height: 512px !important;
+    /* border: solid red 1px !important; */
+}
 
+/* .woocommerce-Tabs-panel{
+    border: solid 1px red !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 2rem;
+} */
 
+.woocommerce-product-attributes-item{
+    gap: 10rem;
+}
 
-
+.woocommerce-product-attributes-item__label{
+    padding: 0rem !important;
+    text-align: start !important;
+}
 
 
 
@@ -304,7 +322,7 @@ button[name="save_account_details"] {
 
 /* ########################################### CART ########################################### */
 
-.entry-content{
+.woocommerce-cart .entry-content{
     display: flex !important;
     /* border: solid 5px red !important; */
     padding-inline: clamp(2rem, 2vw, 10rem);
@@ -379,3 +397,9 @@ button[name="save_account_details"] {
     opacity: 1 !important;  
 }
 
+
+/* ########################################### CHECKOUT ########################################### */
+
+[data-block-name="woocommerce/page-content-wrapper"]{
+
+}
