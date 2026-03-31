@@ -88,14 +88,14 @@ Version: 1.0
     color: var(--wc-white) !important;
 }
 
-.wp-block-button__link {
+.wp-block-button__link, .single_add_to_cart_button, button[name="save_account_details"], .wc-block-components-button {
     position: relative;
     overflow: hidden;
     border-radius: 0px;
     background-color: none !important;
 }
 
-.wp-block-button__link::before {
+.wp-block-button__link::before, .single_add_to_cart_button::before, button[name="save_account_details"]::before, .wc-block-components-button::before {
     content: "";
     position: absolute;
     border-radius: 0px;
@@ -110,7 +110,7 @@ Version: 1.0
     /* important pour ne pas bloquer le clic */
 }
 
-.wp-block-button__link:hover::before {
+.wp-block-button__link:hover::before, .single_add_to_cart_button:hover::before, button[name="save_account_details"]:hover::before, .wc-block-components-button:hover::before {
     opacity: 0.5;
 }
 
@@ -210,6 +210,23 @@ select {
 }
 
 
+.cart {
+    border: red solid 1px !important;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    container-type: inline-size; /* indispensable */
+}
+
+@container (max-width: 400px) {
+    .cart {
+        flex-direction: column;
+        align-items: flex-start;
+        border: blue solid 1px !important;
+    }
+}
+
 
 /* ########################################### NAVBAR ########################################### */
 
@@ -266,42 +283,6 @@ select {
     font-family: var(--wc-font-baskerville) !important;
 }
 
-button[name="save_account_details"] {
-    color: var(--wc-red1) !important;
-}
-
-
-.button[name="save_account_details"] {
-    background: none !important;
-    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.37) 50%, rgba(255, 255, 255, 0) 100%) !important;
-    color: var(--wc-white) !important;
-}
-
-.button[name="save_account_details"] {
-    position: relative;
-    overflow: hidden;
-    border-radius: 0px;
-    background-color: none !important;
-}
-
-.button[name="save_account_details"]::before {
-    content: "";
-    position: absolute;
-    border-radius: 0px;
-    inset: 0;
-    background-image: linear-gradient(90deg,
-            rgba(255, 255, 255, 0) 0%,
-            rgba(255, 255, 255, 1) 50%,
-            rgba(255, 255, 255, 0) 100%) !important;
-    opacity: 0.350;
-    transition: opacity 0.5s;
-    pointer-events: none;
-    /* important pour ne pas bloquer le clic */
-}
-
-.button[name="save_account_details"]:hover::before {
-    opacity: 0.5;
-}
 
 .woocommerce-PaymentBox{
     background-color: var(--wc-black) !important;
@@ -340,37 +321,6 @@ button[name="save_account_details"] {
     font-size: 1.5rem !important; /* ne marche pas */
 }
 
-.wc-block-components-button {
-    background: none !important;
-    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.37) 50%, rgba(255, 255, 255, 0) 100%) !important;
-    color: var(--wc-white) !important;
-}
-
-.wc-block-components-button {
-    position: relative;
-    overflow: hidden;
-    border-radius: 0px;
-    background-color: none !important;
-}
-
-.wc-block-components-button::before {
-    content: "";
-    position: absolute;
-    border-radius: 0px;
-    inset: 0;
-    background-image: linear-gradient(90deg,
-            rgba(255, 255, 255, 0) 0%,
-            rgba(255, 255, 255, 1) 50%,
-            rgba(255, 255, 255, 0) 100%) !important;
-    opacity: 0.350;
-    transition: opacity 0.5s;
-    pointer-events: none;
-    /* important pour ne pas bloquer le clic */
-}
-
-.wc-block-components-button:hover::before {
-    opacity: 0.5;
-}
 
 .wc-block-cart__submit-button{
     padding: 1rem;
@@ -398,6 +348,7 @@ button[name="save_account_details"] {
 }
 
 
+
 /* ########################################### CHECKOUT ########################################### */
 
 [data-block-name="woocommerce/page-content-wrapper"]{
@@ -411,4 +362,29 @@ button[name="save_account_details"] {
     align-items: flex-start !important;
     gap: 3rem !important;
     margin-top: 2rem !important;
+}
+
+.wc-block-components-order-summary-item__image img{
+    object-fit: contain !important;
+    height: 100px !important;
+    width: 100px !important;
+}
+
+/* ########################################### ORDER RECEIVED ########################################### */
+
+[id="wp--skip-link--target"]{
+    border: solid 5px red !important;
+    padding-inline: clamp(2rem, 10vw, 10rem);
+}
+
+.wc-block-order-confirmation-summary-list-item__value{
+    font-size: 1.5rem !important;
+}
+
+.wc-block-order-confirmation-summary-list-item__key{
+    font-size: 2rem !important;
+}
+
+.wc-block-order-confirmation-totals__table {
+    font-size: 1.5rem !important;
 }

@@ -14,6 +14,40 @@
 				"area": "footer"
 			}
 		],
+		"typography": {
+			"fluid": true,
+			"fontSizes": [
+				{
+					"size": ".9rem",
+					"fluid": {
+						"min": "0.9rem",
+						"max": "1.2rem"
+					},
+					"slug": "piccolino",
+					"name": "Piccolino"
+				},
+				{
+					"size": "2rem",
+					"fluid": {
+						"min": "1.8rem",
+						"max": "3.3rem"
+					},
+					"slug": "in-mezzo",
+					"name": "In Mezzo"
+				},
+				{
+					"size": "2.8rem",
+					"fluid": false,
+					"slug": "neutrale",
+					"name": "Neutrale"
+				},
+				{
+					"size": "4.75rem",
+					"slug": "grandone",
+					"name": "Grandone"
+				}
+			]
+		},
 		"appearanceTools": true,
 		"color": {
 			"gradients": [
