@@ -35,7 +35,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"width":100,"className":"is-style-button-grad","style":{"spacing":{"padding":{"left":"8rem","right":"8rem","top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"fontSize":"silksong_small-title"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-button-grad"><a class="wp-block-button__link has-silksong-small-title-font-size has-custom-font-size wp-element-button" href="https://mmi.unilim.fr/~villoutreix8/wordpress/shop/" style="padding-top:var(--wp--preset--spacing--30);padding-right:8rem;padding-bottom:var(--wp--preset--spacing--30);padding-left:8rem"><strong>Go to the Shop</strong></a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-button-grad"><a class="wp-block-button__link has-silksong-small-title-font-size has-custom-font-size wp-element-button" href="https://mmi.unilim.fr/~villoutreix8/wordpress/bestiary-2/" style="padding-top:var(--wp--preset--spacing--30);padding-right:8rem;padding-bottom:var(--wp--preset--spacing--30);padding-left:8rem"><strong>A</strong>ccess the Bestiary</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 

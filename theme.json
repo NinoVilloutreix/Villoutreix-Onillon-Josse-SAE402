@@ -118,6 +118,24 @@
 			"fontFamily": "var(--wp--preset--font-family--poppins)",
 			"fontSizes": [
 				{
+					"size": "1.2rem",
+					"fluid": {
+						"min": "1.2rem",
+						"max": "2.85rem"
+					},
+					"slug": "silksong_nav-title",
+					"name": "Silksong_Nav-Title"
+				},
+				{
+					"size": "0.8rem",
+					"fluid": {
+						"min": "0.8rem",
+						"max": "2.85rem"
+					},
+					"slug": "silksong_nav-subtitle",
+					"name": "Silksong_Nav-Subtitle"
+				},
+				{
 					"size": "0.9rem",
 					"fluid": {
 						"min": "0.8rem",
@@ -138,7 +156,7 @@
 				{
 					"size": "1.5rem",
 					"fluid": {
-						"min": "1.5rem",
+						"min": "1.2rem",
 						"max": "2rem"
 					},
 					"slug": "silksong_large",
