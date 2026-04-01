@@ -127,6 +127,10 @@ Version: 1.0
     color: var(--wc-white);
 }
 
+.wc-block-components-product-sale-badge__text{
+    font-size: var(--wp--preset--font-size--silksong_small) !important;
+}
+
 
 
 .sticky-header {
@@ -212,7 +216,7 @@ select {
 
 
 .cart {
-    border: red solid 1px !important;
+    /* border: red solid 1px !important; */
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -374,7 +378,7 @@ select {
 /* ########################################### ORDER RECEIVED ########################################### */
 
 [id="wp--skip-link--target"]{
-    border: solid 5px red !important;
+    /* border: solid 5px red !important; */
     padding-inline: clamp(2rem, 10vw, 10rem);
 }
 
@@ -388,4 +392,16 @@ select {
 
 .wc-block-order-confirmation-totals__table {
     font-size: 1.5rem !important;
+}
+
+[data-block-name="woocommerce/order-confirmation-shipping-address"] address{
+    font-size: var(--wp--preset--font-size--silksong_small) !important; /* Marche paaaas */
+    color: red !important;
+    border: red solid 1px !important;
+}
+
+[data-block-name="woocommerce/order-confirmation-billing-address"] address{
+    font-size: var(--wp--preset--font-size--silksong_small) !important; /* Marche paaaas */
+    color: red !important;
+    border: red solid 1px !important;
 }

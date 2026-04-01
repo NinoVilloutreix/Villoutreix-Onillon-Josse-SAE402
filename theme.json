@@ -131,6 +131,15 @@
 					"name": "Silksong_Medium"
 				},
 				{
+					"size": "1.5rem",
+					"fluid": {
+						"min": "1.5rem",
+						"max": "2rem"
+					},
+					"slug": "silksong_large",
+					"name": "Silksong_Large"
+				},
+				{
 					"size": "2.0rem",
 					"fluid": {
 						"min": "2.0rem",

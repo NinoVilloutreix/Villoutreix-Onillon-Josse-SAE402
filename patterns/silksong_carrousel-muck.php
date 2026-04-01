@@ -31,8 +31,8 @@
 <div class="wp-block-woocommerce-single-product woocommerce"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|80"}},"fontSize":"medium","layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-<div class="wp-block-group has-medium-font-size"><!-- wp:paragraph {"style":{"layout":{"selfStretch":"fit","flexSize":null},"typography":{"fontStyle":"italic","fontWeight":"100"}},"fontSize":"silksong_small-title"} -->
-<p class="has-silksong-small-title-font-size" style="font-style:italic;font-weight:100">Fragile charm woven of reed and leafs.<br>Said to repels the Muckmaggots of Sinner’s road, Bilewater, and Putrified Ducks. Repairs when settling at benches.</p>
+<div class="wp-block-group has-medium-font-size"><!-- wp:paragraph {"style":{"layout":{"selfStretch":"fit","flexSize":null},"typography":{"fontStyle":"italic","fontWeight":"100"}},"fontSize":"silksong_large"} -->
+<p class="has-silksong-large-font-size" style="font-style:italic;font-weight:100">Fragile charm woven of reed and leafs.<br>Said to repels the Muckmaggots of Sinner’s road, Bilewater, and Putrified Ducks. Repairs when settling at benches.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"style":{"spacing":{"blockGap":{"top":"0","left":"0"}},"layout":{"selfStretch":"fit","flexSize":null},"border":{"width":"0px","style":"none","radius":{"topLeft":"0px","topRight":"0px","bottomLeft":"0px","bottomRight":"0px"}}}} -->

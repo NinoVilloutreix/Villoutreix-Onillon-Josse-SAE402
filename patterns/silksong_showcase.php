@@ -34,7 +34,7 @@
 <!-- wp:column {"verticalAlignment":"bottom","width":"500px","style":{"spacing":{"blockGap":"var:preset|spacing|70"}},"fontSize":"x-large","layout":{"type":"default"}} -->
 <div class="wp-block-column is-vertically-aligned-bottom has-x-large-font-size" style="flex-basis:500px"><!-- wp:woocommerce/product-rating {"isDescendentOfSingleProductBlock":true,"fontSize":"medium"} /-->
 
-<!-- wp:woocommerce/product-summary {"isDescendentOfSingleProductBlock":true,"showDescriptionIfEmpty":true,"fontSize":"silksong_small-title"} /-->
+<!-- wp:woocommerce/product-summary {"isDescendentOfSingleProductBlock":true,"showDescriptionIfEmpty":true,"fontSize":"silksong_large"} /-->
 
 <!-- wp:woocommerce/product-price {"isDescendentOfSingleProductBlock":true,"fontFamily":"cinzel","fontSize":"silksong_title","style":{"typography":{"fontStyle":"normal","fontWeight":"700"}}} /-->
 

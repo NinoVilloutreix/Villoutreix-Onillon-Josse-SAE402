@@ -31,8 +31,8 @@
 <div class="wp-block-woocommerce-single-product woocommerce"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|80"}},"fontSize":"medium","layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-<div class="wp-block-group has-medium-font-size"><!-- wp:paragraph {"style":{"layout":{"selfStretch":"fit","flexSize":null}},"fontSize":"silksong_small-title"} -->
-<p class="has-silksong-small-title-font-size"><em>A crystal lantern containing a Lumafly.</em><br><em>It illuminates dark caves so that travelers can find their way.</em></p>
+<div class="wp-block-group has-medium-font-size"><!-- wp:paragraph {"style":{"layout":{"selfStretch":"fit","flexSize":null}},"fontSize":"silksong_large"} -->
+<p class="has-silksong-large-font-size"><em>A crystal lantern containing a Lumafly.</em><br><em>It illuminates dark caves so that travelers can find their way.</em></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
