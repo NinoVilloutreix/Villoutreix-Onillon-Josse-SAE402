@@ -42,6 +42,11 @@
 					"slug": "black"
 				},
 				{
+					"color": "#ff1924",
+					"name": "Red0",
+					"slug": "red0"
+				},
+				{
 					"color": "#D10F1A",
 					"name": "Red1",
 					"slug": "red1"

@@ -15,6 +15,7 @@ Version: 1.0
 
     --wc-white: #FFFFFF;
     --wc-black: #000000;
+    --wc-red0: #ff1924;
     --wc-red1: #D10F1A;
     --wc-red2: #9A000F;
     --wc-orange1: #FEB974;
@@ -404,4 +405,23 @@ select {
     font-size: var(--wp--preset--font-size--silksong_small) !important; /* Marche paaaas */
     color: red !important;
     border: red solid 1px !important;
+}
+
+
+/* ########################################### NAVBAR ########################################### */
+
+.wp-block-navigation__container li:last-child span{
+    /* border: red solid 1px !important; */
+    color: var(--wc-red0) !important;  
+}
+
+/* ########################################### ACHAT PRODUIT ########################################### */
+
+.wc-block-components-notice-banner.is-success{
+    background-color: var(--wc-black) !important;
+    color: var(--wc-white) !important;
+    align-items: center !important;
+}
+.wc-block-components-notice-banner>.wc-block-components-notice-banner__content .wc-forward{
+    color: var(--wc-white) !important;
 }
