@@ -441,3 +441,15 @@ select {
 .wc-block-components-notice-banner>.wc-block-components-notice-banner__content .wc-forward{
     color: var(--wc-white) !important;
 }
+
+/* ########################################### VIDEO BG ########################################### */
+
+.wp-block-video video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
