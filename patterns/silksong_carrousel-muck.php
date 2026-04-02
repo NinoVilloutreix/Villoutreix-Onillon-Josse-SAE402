@@ -23,8 +23,8 @@
 <p class="has-text-align-right has-custom-blue-color has-text-color has-link-color has-poppins-font-family has-silksong-medium-font-size" style="padding-top:var(--wp--preset--spacing--30);padding-right:0;padding-bottom:var(--wp--preset--spacing--30);padding-left:0">Blue tool</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":148,"width":"288px","height":"auto","aspectRatio":"1.0382155669942286","sizeSlug":"full","linkDestination":"media","align":"right","style":{"border":{"radius":{"topLeft":"0px","topRight":"0px","bottomLeft":"0px","bottomRight":"0px"}}}} -->
-<figure class="wp-block-image alignright size-full is-resized has-custom-border"><a href="https://mmi.unilim.fr/~villoutreix8/wordpress/wp-content/uploads/2026/03/Wreath_of_Purity.png"><img src="https://mmi.unilim.fr/~villoutreix8/wordpress/wp-content/uploads/2026/03/Wreath_of_Purity.png" alt="" class="wp-image-148" style="border-top-left-radius:0px;border-top-right-radius:0px;border-bottom-left-radius:0px;border-bottom-right-radius:0px;aspect-ratio:1.0382155669942286;width:288px;height:auto"/></a></figure>
+<!-- wp:image {"id":148,"width":"288px","height":"auto","aspectRatio":"1.0382155669942286","sizeSlug":"full","linkDestination":"none","align":"right","style":{"border":{"radius":{"topLeft":"0px","topRight":"0px","bottomLeft":"0px","bottomRight":"0px"}}}} -->
+<figure class="wp-block-image alignright size-full is-resized has-custom-border"><img src="https://mmi.unilim.fr/~villoutreix8/wordpress/wp-content/uploads/2026/03/Wreath_of_Purity.png" alt="" class="wp-image-148" style="border-top-left-radius:0px;border-top-right-radius:0px;border-bottom-left-radius:0px;border-bottom-right-radius:0px;aspect-ratio:1.0382155669942286;width:288px;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:woocommerce/single-product {"productId":54} -->
