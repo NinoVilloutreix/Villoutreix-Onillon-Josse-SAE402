@@ -89,12 +89,16 @@ Version: 1.0
     color: var(--wc-white) !important;
 }
 
+
 .wp-block-button__link, .single_add_to_cart_button, button[name="save_account_details"], .wc-block-components-button {
     position: relative;
     overflow: hidden;
     border-radius: 0px;
     background-color: none !important;
     font-size: var(--wp--preset--font-size--silksong_big-title) !important;
+    height: auto !important;
+    padding-inline: 5rem;
+    padding-block: 1rem;
 }
 
 .wp-block-button__link::before, .single_add_to_cart_button::before, button[name="save_account_details"]::before, .wc-block-components-button::before {
@@ -114,6 +118,12 @@ Version: 1.0
 
 .wp-block-button__link:hover::before, .single_add_to_cart_button:hover::before, button[name="save_account_details"]:hover::before, .wc-block-components-button:hover::before {
     opacity: 0.5;
+}
+
+.wc-block-cart-item__image img {
+    object-fit: contain !important;
+    height: 100px !important;
+    width: 100px !important;
 }
 
 /* ########################################### SALE BADGE ########################################### */
@@ -186,9 +196,15 @@ select {
   height: 4rem !important;
 }
 
-.single-product .wp-block-woocommerce-product-price{
+.wp-block-woocommerce-product-price {
     display: flex !important;
     justify-content: flex-start !important;
+    /* border: solid blue 1px !important; */
+}
+
+.has-text-align-center{
+    display: flex !important;
+    justify-content: center !important;
     /* border: solid red 1px !important; */
 }
 
@@ -397,14 +413,14 @@ select {
 
 [data-block-name="woocommerce/order-confirmation-shipping-address"] address{
     font-size: var(--wp--preset--font-size--silksong_small) !important; /* Marche paaaas */
-    color: red !important;
-    border: red solid 1px !important;
+    /* color: red !important;
+    border: red solid 1px !important; */
 }
 
 [data-block-name="woocommerce/order-confirmation-billing-address"] address{
     font-size: var(--wp--preset--font-size--silksong_small) !important; /* Marche paaaas */
-    color: red !important;
-    border: red solid 1px !important;
+    /* color: red !important;
+    border: red solid 1px !important; */
 }
 
 

@@ -113,87 +113,87 @@
 				}
 			]
 		},
-		"typography":{
+		"typography": {
 			"fluid": true,
 			"fontFamily": "var(--wp--preset--font-family--poppins)",
 			"fontSizes": [
 				{
-					"size": "1.2rem",
+					"size": "1rem",
 					"fluid": {
-						"min": "1.2rem",
-						"max": "2.85rem"
+						"min": "1rem",
+						"max": "1.6rem"
 					},
 					"slug": "silksong_nav-title",
 					"name": "Silksong_Nav-Title"
 				},
 				{
-					"size": "0.8rem",
+					"size": "0.75rem",
 					"fluid": {
-						"min": "0.8rem",
-						"max": "2.85rem"
+						"min": "0.75rem",
+						"max": "1.2rem"
 					},
 					"slug": "silksong_nav-subtitle",
 					"name": "Silksong_Nav-Subtitle"
 				},
 				{
-					"size": "0.9rem",
+					"size": "0.85rem",
 					"fluid": {
 						"min": "0.8rem",
-						"max": "0.9rem"
+						"max": "0.95rem"
 					},
 					"slug": "silksong_small",
 					"name": "Silksong_Small"
 				},
 				{
-					"size": "0.9rem",
+					"size": "1rem",
 					"fluid": {
-						"min": "0.9rem",
+						"min": "0.95rem",
 						"max": "1.25rem"
 					},
 					"slug": "silksong_medium",
 					"name": "Silksong_Medium"
 				},
 				{
-					"size": "1.5rem",
+					"size": "1.25rem",
 					"fluid": {
-						"min": "1.2rem",
-						"max": "2rem"
+						"min": "1.1rem",
+						"max": "1.6rem"
 					},
 					"slug": "silksong_large",
 					"name": "Silksong_Large"
 				},
 				{
-					"size": "2.0rem",
+					"size": "1.6rem",
 					"fluid": {
-						"min": "2.0rem",
-						"max": "2.25rem"
+						"min": "1.4rem",
+						"max": "1.9rem"
 					},
 					"slug": "silksong_small-title",
 					"name": "Silksong_Small Title"
 				},
 				{
-					"size": "2.65rem",
+					"size": "2rem",
 					"fluid": {
-						"min": "2.65rem",
-						"max": "2.85rem"
+						"min": "1.8rem",
+						"max": "2.4rem"
 					},
 					"slug": "silksong_title",
 					"name": "Silksong_Title"
 				},
 				{
-					"size": "4.0rem",
+					"size": "2.6rem",
 					"fluid": {
-						"min": "4.0rem",
-						"max": "4.2rem"
+						"min": "2.2rem",
+						"max": "3rem"
 					},
 					"slug": "silksong_big-title",
 					"name": "Silksong_Big Title"
 				},
 				{
-					"size": "5.25rem",
+					"size": "3.2rem",
 					"fluid": {
-						"min": "2.65rem",
-						"max": "5.25rem"
+						"min": "2.4rem",
+						"max": "3.6rem"
 					},
 					"slug": "silksong_giant-title",
 					"name": "Silksong_Giant Title"
