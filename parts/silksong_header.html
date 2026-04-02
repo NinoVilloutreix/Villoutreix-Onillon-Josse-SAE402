@@ -13,4 +13,23 @@
 <!-- wp:woocommerce/customer-account {"displayStyle":"icon_only","iconStyle":"line","iconClass":"wc-block-customer-account__account-icon","fontSize":"medium","style":{"spacing":{"padding":{"right":"0","left":"0"}}}} /--></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
- 
+
+<div id="student-popup" class="popup-hidden">
+  <div class="popup-content">
+    <h2>Ce site est un projet étudiant</h2>
+    <p>Les articles présentés sont fictifs; ne tentez pas d'utiliser votre véritable carte bancaire pour payer.</p>
+    <button id="popup-close">Accéder au site</button>
+  </div>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  if (!localStorage.getItem("studentPopupSeen")) {
+    document.getElementById("student-popup").classList.remove("popup-hidden");
+  }
+
+  document.getElementById("popup-close").addEventListener("click", function() {
+    localStorage.setItem("studentPopupSeen", "true");
+    document.getElementById("student-popup").classList.add("popup-hidden");
+  });
+});
+</script>

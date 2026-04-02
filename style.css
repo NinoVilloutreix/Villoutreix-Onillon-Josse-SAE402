@@ -90,7 +90,7 @@ Version: 1.0
 }
 
 
-.wp-block-button__link, .single_add_to_cart_button, button[name="save_account_details"], .wc-block-components-button {
+.wp-block-button__link, .single_add_to_cart_button, button[name="save_account_details"], .wc-block-components-button, #popup-close {
     position: relative;
     overflow: hidden;
     border-radius: 0px;
@@ -466,7 +466,7 @@ select {
 #student-popup {
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,0.6);
+  background-color: var(--wc-black) !important;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -478,9 +478,15 @@ select {
 }
 
 #student-popup .popup-content {
-  background: white;
+  color: var(--wc-white) !important;
   padding: 2rem;
   border-radius: 8px;
   max-width: 400px;
   text-align: center;
+}
+
+
+#student-popup p {
+  margin-bottom: 1.5rem;
+  font-size: var(--wp--preset--font-size--silksong_medium) !important;
 }
