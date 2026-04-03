@@ -183,7 +183,7 @@ select {
 .onsale{
     background-color: var(--wc-black) !important;
     border-radius: 10px !important;
-    border: 2px var(--wc-red1) solid !important;
+    border: 2px var(--wc-white) solid !important;
     height: auto !important;
 }
 
@@ -250,7 +250,7 @@ select {
     .cart {
         flex-direction: column;
         align-items: flex-start;
-        border: blue solid 1px !important;
+        /* border: blue solid 1px !important; */
     }
 }
 
