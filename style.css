@@ -466,29 +466,36 @@ select {
     padding-inline: clamp(2rem, 2vw, 10rem);
 }
 
-/* ########################################### PRODUCT BY CATEGORY ########################################### */
+/* ########################################### POPUP ########################################### */
 
 #student-popup {
   position: fixed;
   inset: 0;
-  background-color: var(--wc-black) !important;
+  background-color: rgba(0, 0, 0, 0.6);
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 9999;
+  font-size: 15px !important;
 }
+
 
 #student-popup.popup-hidden {
   display: none;
 }
 
 #student-popup .popup-content {
+  background-color: var(--wc-black);
   color: var(--wc-white) !important;
   padding: 2rem;
-  border-radius: 8px;
+  border-radius: 12px;
   max-width: 400px;
+  width: 90%;
+  height: auto;
   text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
 }
+
 
 
 #student-popup p {
@@ -514,3 +521,4 @@ select {
         flex-direction: column !important;
     } 
 }
+
